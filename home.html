@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>MusiKalye</title>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+        <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css" />
+        <link rel="stylesheet" href="assets/css/styles.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+        <link rel="icon" type="image/x-icon" href="music-player/images/favicon.ico">
+    </head>
+    <body>
+        <header class="header">
+            <div class="header__container">
+                <a href="#" class="header__logo">Home</a>
+                <div class="header__toggle">
+                    <i class="material-icons" id="header-toggle">menu</i>
+                </div>
+            </div>
+        </header>
+
+        <div class="nav" id="navbar">
+            <nav class="nav__container">
+                <div>
+                    <a href="#" class="nav__link nav__logo">
+                        <i class="material-icons">play_circle</i> &nbsp;&nbsp;&nbsp;
+                        <span class="nav__logo-name"> MusiKalye</span>
+                    </a>
+    
+                    <div class="nav__list">
+                        <div class="nav__items">
+                            <h3 class="nav__subtitle">Browse</h3>
+    
+                            <a href="home.html" class="nav__link active">
+                                <i class="material-icons">home</i> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                <span class="nav__name"> Home</span>
+                            </a>
+
+                            <a href="song.html" class="nav__link">
+                                <i class="material-icons">library_music</i> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                <span class="nav__name"> Songs</span>
+                            </a>
+                            <a href="artist.html" class="nav__link">
+                                <i class="material-icons">record_voice_over</i> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                <span class="nav__name"> Artists</span>
+                            </a>
+                            <a href="playlist.html" class="nav__link">
+                                <i class="material-icons">queue_music</i> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                <span class="nav__name"> Playlists</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+        </div>
+
+        <!--========== POPULAR SONGS ==========-->
+        <main>
+            <section id="tranding">
+                <div class="container">
+                    <br>
+                    <h1 class="section-heading">Popular Songs</h1>
+                </div>
+                <div class="container">
+                    <div class="swiper tranding-slider">
+                        <div class="swiper-wrapper">
+
+                            <!-- Slide-start -->
+                            <div class="swiper-slide tranding-slide">
+                                <div class="tranding-slide-img">
+                                    <img src="music-player/images/music-4.jpg" alt="music-4">
+                                </div>
+                                <div class="tranding-slide-content">
+                                    <div class="tranding-slide-content-bottom">
+                                        <h2>Huling Sandali</h2><br />
+                                        <h3>December Avenue</h3><br />
+                                        <a href="music-player/index.html" onclick="playMusic('music-4')">
+                                            <button type="button" class="play-music" id="music-4">
+                                                <i class="material-icons">play_circle</i> &nbsp;Music Player
+                                            </button>
+                                        </a>
+                                        <br />
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Slide-end -->
+
+                            <!-- Slide-start -->
+                            <div class="swiper-slide tranding-slide">
+                                <div class="tranding-slide-img">
+                                    <img src="music-player/images/music-15.jpg" alt="music-15">
+                                </div>
+                                <div class="tranding-slide-content">
+                                    <div class="tranding-slide-content-bottom">
+                                        <h2>Dito Ka Lang</h2><br />
+                                        <h3>Moira Dela Torre</h3><br />
+                                        <a href="music-player/index.html" onclick="playMusic('music-15')">
+                                            <button type="button" class="play-music" id="music-15">
+                                                <i class="material-icons">play_circle</i> &nbsp;Music Player
+                                            </button>
+                                        </a>
+                                        <br />
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Slide-end -->
+
+                            <!-- Slide-start -->
+                            <div class="swiper-slide tranding-slide">
+                                <div class="tranding-slide-img">
+                                    <img src="music-player/images/music-17.jpg" alt="music-17">
+                                </div>
+                                <div class="tranding-slide-content">
+                                    <div class="tranding-slide-content-bottom">
+                                        <h2>Pagsamo</h2><br />
+                                        <h3>Arthur Nery</h3><br />
+                                        <a href="music-player/index.html" onclick="playMusic('music-17')">
+                                            <button type="button" class="play-music" id="music-17">
+                                                <i class="material-icons">play_circle</i> &nbsp;Music Player
+                                            </button>
+                                        </a>
+                                        <br />
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Slide-end -->
+
+                            <!-- Slide-start -->
+                            <div class="swiper-slide tranding-slide">
+                                <div class="tranding-slide-img">
+                                    <img src="music-player/images/music-13.jpg" alt="music-13">
+                                </div>
+                                <div class="tranding-slide-content">
+                                    <div class="tranding-slide-content-bottom">
+                                        <h2>Oks Lang Ako</h2><br />
+                                        <h3>JRoa</h3><br />
+                                        <a href="music-player/index.html" onclick="playMusic('music-13')">
+                                            <button type="button" class="play-music" id="music-13">
+                                                <i class="material-icons">play_circle</i> &nbsp;Music Player
+                                            </button>
+                                        </a>
+                                        <br />
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Slide-end -->
+
+                            <!-- Slide-start -->
+                            <div class="swiper-slide tranding-slide">
+                                <div class="tranding-slide-img">
+                                    <img src="music-player/images/music-12.jpg" alt="music-12">
+                                </div>
+                                <div class="tranding-slide-content">
+                                    <div class="tranding-slide-content-bottom">
+                                        <h2>Ikaw at Sila</h2><br />
+                                        <h3>Moira Dela Torre</h3><br />
+                                        <a href="music-player/index.html" onclick="playMusic('music-12')">
+                                            <button type="button" class="play-music" id="music-12">
+                                                <i class="material-icons">play_circle</i> &nbsp;Music Player
+                                            </button>
+                                        </a>
+                                        <br />
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Slide-end -->
+
+                            <!-- Slide-start -->
+                            <div class="swiper-slide tranding-slide">
+                                <div class="tranding-slide-img">
+                                    <img src="music-player/images/music-11.jpg" alt="music-11">
+                                </div>
+                                <div class="tranding-slide-content">
+                                    <div class="tranding-slide-content-bottom">
+                                        <h2>Sana</h2><br />
+                                        <h3>I Belong to the Zoo</h3><br />
+                                        <a href="music-player/index.html" onclick="playMusic('music-11')">
+                                            <button type="button" class="play-music" id="music-11">
+                                                <i class="material-icons">play_circle</i> &nbsp;Music Player
+                                            </button>
+                                        </a>
+                                        <br />
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Slide-end -->
+
+                            <!-- Slide-start -->
+                            <div class="swiper-slide tranding-slide">
+                                <div class="tranding-slide-img">
+                                    <img src="music-player/images/music-18.jpg" alt="music-18">
+                                </div>
+                                <div class="tranding-slide-content">
+                                    <div class="tranding-slide-content-bottom">
+                                        <h2>Pagsuko</h2><br />
+                                        <h3>Jireh Lim</h3><br />
+                                        <a href="music-player/index.html" onclick="playMusic('music-18')">
+                                            <button type="button" class="play-music" id="music-18">
+                                                <i class="material-icons">play_circle</i> &nbsp;Music Player
+                                            </button>
+                                        </a>
+                                        <br />
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Slide-end -->
+
+                            <!-- Slide-start -->
+                            <div class="swiper-slide tranding-slide">
+                                <div class="tranding-slide-img">
+                                    <img src="music-player/images/music-6.jpg" alt="music-6">
+                                </div>
+                                <div class="tranding-slide-content">
+                                    <div class="tranding-slide-content-bottom">
+                                        <h2>Pansamantala</h2><br />
+                                        <h3>Callalily</h3><br />
+                                        <a href="music-player/index.html" onclick="playMusic('music-6')">
+                                            <button type="button" class="play-music" id="music-6">
+                                                <i class="material-icons">play_circle</i> &nbsp;Music Player
+                                            </button>
+                                        </a>
+                                        <br />
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Slide-end -->
+
+                            <!-- Slide-start -->
+                            <div class="swiper-slide tranding-slide">
+                                <div class="tranding-slide-img">
+                                    <img src="music-player/images/music-9.jpg" alt="music-9">
+                                </div>
+                                <div class="tranding-slide-content">
+                                    <div class="tranding-slide-content-bottom">
+                                        <h2>Higa</h2><br />
+                                        <h3>Arthur Nery</h3><br />
+                                        <a href="music-player/index.html" onclick="playMusic('music-9')">
+                                            <button type="button" class="play-music" id="music-9">
+                                                <i class="material-icons">play_circle</i> &nbsp;Music Player
+                                            </button>
+                                        </a>
+                                        <br />
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Slide-end -->
+
+                            <!-- Slide-start -->
+                            <div class="swiper-slide tranding-slide">
+                                <div class="tranding-slide-img">
+                                    <img src="music-player/images/music-19.jpg" alt="music-19">
+                                </div>
+                                <div class="tranding-slide-content">
+                                    <div class="tranding-slide-content-bottom">
+                                        <h2>Paubaya</h2><br />
+                                        <h3>Moira Dela Torre</h3><br />
+                                        <a href="music-player/index.html" onclick="playMusic('music-19')">
+                                            <button type="button" class="play-music" id="music-19">
+                                                <i class="material-icons">play_circle</i> &nbsp;Music Player
+                                            </button>
+                                        </a>
+                                        <br />
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Slide-end -->
+                        </div>
+        
+                        <div class="tranding-slider-control">
+                            <div class="swiper-button-prev slider-arrow">
+                                <ion-icon name="arrow-back-outline"></ion-icon>
+                            </div>
+                            <div class="swiper-button-next slider-arrow">
+                                <ion-icon name="arrow-forward-outline"></ion-icon>
+                            </div>
+                            <div class="swiper-pagination"></div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <br />
+            <h1 class="section-heading">Popular Artists</h1><br>
+            <section class="artists">
+                <div class="wrapper">  
+                    <i id="left" class="fa-solid fa-angle-left"></i>
+                    <div class="carousel">
+                        <a href="artist.html" class="images">
+                            <img src="music-player/images/music-15.jpg" alt="img" draggable="false">
+                        </a>
+                        <a href="artist.html" class="images">
+                            <img src="music-player/images/music-4.jpg" alt="img" draggable="false">
+                        </a>
+                        <a href="artist.html" class="images">
+                            <img src="music-player/images/music-13.jpg" alt="img" draggable="false">
+                        </a>
+                        <a href="artist.html" class="images">
+                            <img src="music-player/images/music-6.jpg" alt="img" draggable="false">
+                        </a>
+                        <a href="artist.html" class="images">
+                            <img src="music-player/images/arthur-nery.jpg" alt="img" draggable="false">
+                        </a>
+                        <a href="artist.html" class="images">
+                            <img src="music-player/images/i-belong-to-the-zoo.jpg" alt="img" draggable="false">
+                        </a>
+                        <a href="artist.html" class="images">
+                            <img src="music-player/images/the-juans.jpg" alt="img" draggable="false">
+                        </a>
+                        <a href="artist.html" class="images">
+                            <img src="music-player/images/this-band.jpg" alt="img" draggable="false">
+                        </a>
+                        <a href="artist.html" class="images">
+                            <img src="music-player/images/jireh-lim.jpg" alt="img" draggable="false">
+                        </a>
+                        <a href="artist.html" class="images">
+                            <img src="music-player/images/bandang-lapis.jpg" alt="img" draggable="false">
+                        </a>
+                    </div>
+                    <i id="right" class="fa-solid fa-angle-right"></i>
+                </div>
+            </section>
+            <br />
+        </main>
+
+        <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+        <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+        <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+        <script src="assets/js/main.js"></script>
+    </body>
+</html>

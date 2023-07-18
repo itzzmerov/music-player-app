@@ -1,0 +1,116 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  :root {
+    --header-height: 3.5rem;
+    --nav-width: 219px;
+    --bg: #185ADB;
+    --secondary: #0A1931;
+    --accent: #FFC947;
+    --white: #fff;
+    --black: #000;
+    --body-font: 'Poppins', sans-serif;
+    --normal-font-size: .938rem;
+    --small-font-size: .75rem;
+    --smaller-font-size: .75rem;
+    --font-medium: 500;
+    --font-semi-bold: 600;
+    --z-fixed: 100;
+    --box-shadow: 4px 5px 4px rgba(0, 0, 0, 0.25);
+    --border-radius: 50px;
+    --border: 1px solid rgba(0, 0, 0, 0.3);
+  }
+  
+  html,
+  body {
+    height: 100%;
+  }
+  
+  html {
+    background-image: url('../../music-player/images/bg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+  }
+  
+  body {
+    font-family: var(--body-font);
+    line-height: 1.4;
+    display: flex;
+  }
+  
+  .container {
+    width: 400px;
+    margin: auto;
+    padding: 36px 48px 48px 48px;
+    background-color: var(--secondary);
+  
+    border-radius: 11px;
+    box-shadow: 0 2.4rem 4.8rem rgba(0, 0, 0, 0.15);
+    color: var(--white);
+  }
+  
+  .login-title {
+    padding: 15px;
+    font-size: 22px;
+    font-weight: 600;
+    text-align: center;
+  }
+  
+  .login-form {
+    display: grid;
+    grid-template-columns: 1fr;
+    row-gap: 16px;
+  }
+  
+  .login-form label {
+    display: block;
+    margin-bottom: 8px;
+  }
+  
+  .login-form input {
+    width: 100%;
+    padding: 1.2rem;
+    border-radius: 9px;
+    border: none;
+  }
+  
+  .login-form input:focus {
+    outline: none;
+    box-shadow: 0 0 0 4px rgba(253, 242, 233, 0.5);
+  }
+  
+  .btn--form {
+    background-color: var(--accent);
+    color: #000;
+    align-self: end;
+    padding: 8px;
+  }
+  
+  .btn,
+  .btn:link,
+  .btn:visited {
+    display: inline-block;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 600;
+    border-radius: 9px;
+    border: none;
+  
+    cursor: pointer;
+    font-family: inherit;
+  
+    transition: all 0.3s;
+  }
+  
+  .btn--form:hover {
+    background-color: #eca90b;
+    color: #000;
+  }
+  

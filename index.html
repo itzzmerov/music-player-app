@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Musikalye | Login</title>
+    <link rel="stylesheet" href="assets/css/login.css">
+    <link rel="icon" type="image/x-icon" href="music-player/images/favicon.ico">
+</head>
+<body>
+    <div class="container">
+        <h2 class="login-title">Log in</h2>
+    
+        <form action="#" method="post" name="authentication" class="login-form" id="authentication" onsubmit="return Verify()">
+        
+            <div>
+                <label for="username">Username</label>
+                <input
+                    id="username"
+                    type="text"
+                    placeholder="JohnDoe@12"
+                    name="username"
+                    required
+                    />
+            </div>
+        
+            <div>
+                <label for="password">Password </label>
+                <input
+                    id="password"
+                    type="password"
+                    placeholder="password"
+                    name="password"
+                    required
+                    />
+            </div>
+    
+            <button class="btn btn--form" type="submit" value="Log in">
+                Log in
+            </button>
+        </form>
+    </div>
+    <script>
+        //Submit Button
+        function Verify() {
+            var userRef = "admin";
+            var passRef = "admin";
+
+            var user = document.getElementById("username").value;
+            var pass = document.getElementById("password").value;
+            
+            if (user === userRef && pass === passRef) {
+                alert("Welcome to MusiKalye!");
+                window.location.href = "home.html"; // Redirect to home.html
+                return false; // Prevent form submission (optional)
+            } else {
+                alert("Incorrect username or password!");
+                return false; // Prevent form submission
+            }
+        };
+    </script>
+</body>
+</html>

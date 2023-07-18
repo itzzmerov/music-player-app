@@ -1,0 +1,386 @@
+<!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+        <link rel="stylesheet" href="assets/css/styles.css">
+
+        <title>MusiKalye | Playlist</title>
+        <link rel="icon" type="image/x-icon" href="music-player/images/favicon.ico">
+    </head>
+    <body>
+        <header class="header">
+            <div class="header__container">
+                <a href="#" class="header__logo">Playlist</a>
+                <div class="header__toggle">
+                    <i class="material-icons" id="header-toggle">menu</i>
+                </div>
+            </div>
+        </header>
+
+        <div class="nav" id="navbar">
+            <nav class="nav__container">
+                <div>
+                    <a href="#" class="nav__link nav__logo">
+                        <i class="material-icons">play_circle</i> &nbsp;&nbsp;&nbsp;
+                        <span class="nav__logo-name"> MusiKalye</span>
+                    </a>
+    
+                    <div class="nav__list">
+                        <div class="nav__items">
+                            <h3 class="nav__subtitle">Browse</h3>
+    
+                            <a href="home.html" class="nav__link active">
+                                <i class="material-icons">home</i> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                <span class="nav__name"> Home</span>
+                            </a>
+
+                            <a href="song.html" class="nav__link">
+                                <i class="material-icons">library_music</i> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                <span class="nav__name"> Songs</span>
+                            </a>
+                            <a href="artist.html" class="nav__link">
+                                <i class="material-icons">record_voice_over</i> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                <span class="nav__name"> Artists</span>
+                            </a>
+                            <a href="playlist.html" class="nav__link">
+                                <i class="material-icons">queue_music</i> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                <span class="nav__name"> Playlists</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+        </div>
+
+        <!--========== CONTENTS ==========-->
+        <main>
+            <section class="ui-cards">
+                <div class="cards">
+                    <div class="pics">
+                        <img src="assets/img/favorites.png" alt="" class="songs-images">
+                    </div>
+                    <h1 class="songs-title">My Favorite</h1>
+                    <p class="songs-text">No Description.</p>
+                    <div class="buttons">
+                        <a href="javascript:void(0)" onclick = "document.getElementById('bbb').style.display='block'">
+                            <button class="playlist-btn"> Open Playlist</button>
+                        </a>
+
+                        <div id="bbb" class="light-box">
+                            <a href = "javascript:void(0)" class="close" onclick = "document.getElementById('bbb').style.display='none'">Close</a>
+                            <p class="pop_name">My Favorites</p>
+                            <table cellspacing="0" cellpadding="0">
+                                <thead>
+                                    <tr>
+                                        <th>No.</th>
+                                        <th>Song Title</th>
+                                        <th>Artist</th>
+                                        <th></th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>1</td>
+                                        <td>Binhi</td>
+                                        <td>Arthur Nery</td>
+                                        <td>
+                                            <a href="music-player/index.html"><button class="table-button center">Go to Music Player</button></a>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>2</td>
+                                        <td>Ikaw at Sila</td>
+                                        <td>Moira Dela Torre</td>
+                                        <td>
+                                            <a href="music-player/index.html"><button class="table-button">Go to Music Player</button></a>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>3</td>
+                                        <td>Huling Sandali</td>
+                                        <td>December Avenue</td>
+                                        <td>
+                                            <a href="music-player/index.html"><button class="table-button">Go to Music Player</button></a>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+                <div class="cards">
+                    <div class="pics">
+                        <img src="assets/img/popular.jpg" alt="" class="songs-images">
+                    </div>
+                    <h1 class="songs-title">Popular Songs</h1>
+                    <p class="songs-text">Playlists of the most popular songs in this app.</p>
+                    <div class="buttons">
+                        <a href="javascript:void(0)" onclick = "document.getElementById('bbb1').style.display='block'">
+                            <button class="playlist-btn"> Open Playlist</button>
+                        </a>
+
+                        <div id="bbb1" class="light-box">
+                            <a href = "javascript:void(0)" class="close" onclick = "document.getElementById('bbb1').style.display='none'">Close</a>
+                            <p class="pop_name">Popular Songs</p>
+                            <table cellspacing="0" cellpadding="0">
+                                <thead>
+                                    <tr>
+                                        <th>No.</th>
+                                        <th>Song Title</th>
+                                        <th>Artist</th>
+                                        <th></th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>1</td>
+                                        <td>Huling Sandali</td>
+                                        <td>December Avenue</td>
+                                        <td>
+                                            <a href="music-player/index.html"><button class="table-button center">Go to Music Player</button></a>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>2</td>
+                                        <td>Ikaw at Sila</td>
+                                        <td>Moira Dela Torre</td>
+                                        <td>
+                                            <a href="music-player/index.html"><button class="table-button">Go to Music Player</button></a>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>3</td>
+                                        <td>Pagsuko</td>
+                                        <td>Moira Dela Torre</td>
+                                        <td>
+                                            <a href="music-player/index.html"><button class="table-button">Go to Music Player</button></a>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+                <div class="cards">
+                    <div class="pics">
+                        <img src="assets/img/drama.jpg" alt="" class="songs-images">
+                    </div>
+                    <h1 class="songs-title">Drama Mode</h1>
+                    <p class="songs-text">Pakinggan kapag nagda-drama sa buhay</p>
+                    <div class="buttons">
+                        <a href="javascript:void(0)" onclick = "document.getElementById('bbb2').style.display='block'">
+                            <button class="playlist-btn"> Open Playlist</button>
+                        </a>
+
+                        <div id="bbb2" class="light-box">
+                            <a href = "javascript:void(0)" class="close" onclick = "document.getElementById('bbb2').style.display='none'">Close</a>
+                            <p class="pop_name">Drama Mode</p>
+                            <table cellspacing="0" cellpadding="0">
+                                <thead>
+                                    <tr>
+                                        <th>No.</th>
+                                        <th>Song Title</th>
+                                        <th>Artist</th>
+                                        <th></th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>1</td>
+                                        <td>Binhi</td>
+                                        <td>Arthur Nery</td>
+                                        <td>
+                                            <a href="music-player/index.html"><button class="table-button center">Go to Music Player</button></a>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>2</td>
+                                        <td>Ikaw at Sila</td>
+                                        <td>Moira Dela Torre</td>
+                                        <td>
+                                            <a href="music-player/index.html"><button class="table-button">Go to Music Player</button></a>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>3</td>
+                                        <td>Huling Sandali</td>
+                                        <td>December Avenue</td>
+                                        <td>
+                                            <a href="music-player/index.html"><button class="table-button">Go to Music Player</button></a>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div> 
+
+                <div class="cards">
+                    <div class="pics">
+                        <img src="assets/img/pop.jpg" alt="" class="songs-images">
+                    </div>
+                    <h1 class="songs-title">Pop Songs</h1>
+                    <p class="songs-text">No Description.</p>
+                    <div class="buttons">
+                        <a href="javascript:void(0)" onclick = "document.getElementById('bbb3').style.display='block'">
+                            <button class="playlist-btn"> Open Playlist</button>
+                        </a>
+
+                        <div id="bbb3" class="light-box">
+                            <a href = "javascript:void(0)" class="close" onclick = "document.getElementById('bbb3').style.display='none'">Close</a>
+                            <p class="pop_name">Pop Songs</p>
+                            <table cellspacing="0" cellpadding="0">
+                                <thead>
+                                    <tr>
+                                        <th>No.</th>
+                                        <th>Song Title</th>
+                                        <th>Artist</th>
+                                        <th></th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>1</td>
+                                        <td>Binhi</td>
+                                        <td>Arthur Nery</td>
+                                        <td>
+                                            <a href="music-player/index.html"><button class="table-button center">Go to Music Player</button></a>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>2</td>
+                                        <td>Ikaw at Sila</td>
+                                        <td>Moira Dela Torre</td>
+                                        <td>
+                                            <a href="music-player/index.html"><button class="table-button">Go to Music Player</button></a>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>3</td>
+                                        <td>Huling Sandali</td>
+                                        <td>December Avenue</td>
+                                        <td>
+                                            <a href="music-player/index.html"><button class="table-button">Go to Music Player</button></a>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+                <div class="cards">
+                    <div class="pics">
+                        <img src="assets/img/sad.jpg" alt="" class="songs-images">
+                    </div>
+                    <h1 class="songs-title">Sad Songs</h1>
+                    <p class="songs-text">No Description.</p>
+                    <div class="buttons">
+                        <a href="javascript:void(0)" onclick = "document.getElementById('bbb4').style.display='block'">
+                            <button class="playlist-btn"> Open Playlist</button>
+                        </a>
+
+                        <div id="bbb4" class="light-box">
+                            <a href = "javascript:void(0)" class="close" onclick = "document.getElementById('bbb4').style.display='none'">Close</a>
+                            <p class="pop_name">Sad Songs</p>
+                            <table cellspacing="0" cellpadding="0">
+                                <thead>
+                                    <tr>
+                                        <th>No.</th>
+                                        <th>Song Title</th>
+                                        <th>Artist</th>
+                                        <th></th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>1</td>
+                                        <td>Binhi</td>
+                                        <td>Arthur Nery</td>
+                                        <td>
+                                            <a href="music-player/index.html"><button class="table-button center">Go to Music Player</button></a>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>2</td>
+                                        <td>Ikaw at Sila</td>
+                                        <td>Moira Dela Torre</td>
+                                        <td>
+                                            <a href="music-player/index.html"><button class="table-button">Go to Music Player</button></a>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>3</td>
+                                        <td>Huling Sandali</td>
+                                        <td>December Avenue</td>
+                                        <td>
+                                            <a href="music-player/index.html"><button class="table-button">Go to Music Player</button></a>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+                <div class="cards">
+                    <div class="pics">
+                        <img src="assets/img/all.webp" alt="" class="songs-images">
+                    </div>
+                    <h1 class="songs-title">All Songs</h1>
+                    <p class="songs-text">No Description.</p>
+                    <div class="buttons">
+                        <a href="javascript:void(0)" onclick = "document.getElementById('bbb5').style.display='block'">
+                            <button class="playlist-btn"> Open Playlist</button>
+                        </a>
+
+                        <div id="bbb5" class="light-box">
+                            <a href = "javascript:void(0)" class="close" onclick = "document.getElementById('bbb5').style.display='none'">Close</a>
+                            <p class="pop_name">All Songs</p>
+                            <table cellspacing="0" cellpadding="0">
+                                <thead>
+                                    <tr>
+                                        <th>No.</th>
+                                        <th>Song Title</th>
+                                        <th>Artist</th>
+                                        <th></th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>1</td>
+                                        <td>Binhi</td>
+                                        <td>Arthur Nery</td>
+                                        <td>
+                                            <a href="music-player/index.html"><button class="table-button center">Go to Music Player</button></a>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>2</td>
+                                        <td>Ikaw at Sila</td>
+                                        <td>Moira Dela Torre</td>
+                                        <td>
+                                            <a href="music-player/index.html"><button class="table-button">Go to Music Player</button></a>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>3</td>
+                                        <td>Huling Sandali</td>
+                                        <td>December Avenue</td>
+                                        <td>
+                                            <a href="music-player/index.html"><button class="table-button">Go to Music Player</button></a>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div> 
+                <br/>
+            </section>
+        </main>
+
+        <!--========== MAIN JS ==========-->
+        <script src="assets/js/main.js"></script>
+    </body>
+</html>
