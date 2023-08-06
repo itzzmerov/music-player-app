@@ -8,10 +8,10 @@
 >
 > High Fidelity Wireframe Link: *[HiFi Figma Link](https://www.figma.com/file/5whHWVtioWOHQV2ErK9ZCo/High-Fidelity---Music-Player-App?type=design&node-id=0%3A1&t=6SJh2hb08HZ6MvrY-1)*
 > 
-> Website Link: *[https://rosciditech-digidev.github.io/music-player-app/](https://rosciditech-digidev.github.io/music-player-app/)*
+> Website Link: *[https://rovicbalingbing.github.io/music-player-app/](https://rovicbalingbing.github.io/music-player-app/)*
 >
 > Username: *admin*
 > 
 > Password: *admin*
 
-[![Music Player App](music-player/images/music-player-app-ss.PNG)](https://rosciditech-digidev.github.io/music-player-app/)
+[![Music Player App](music-player/images/music-player-app-ss.PNG)](https://rovicbalingbing.github.io/music-player-app/)
